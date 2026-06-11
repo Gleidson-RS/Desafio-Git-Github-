@@ -1,18 +1,4 @@
 console.log("Teste")
-console.log("teste2")
-//ygiyuiiyryuiykgkiyutlig
-
-/*
-ie57i
-rgsrgsgr
-*/ 
-
-let idade = 17;
-const nome = "joao";
-
-console.log(nome, idade)
-
-//exemplo do professor
 
 let num = 50;
 var num2 = 130;
@@ -95,4 +81,31 @@ console.log("TESTE LOGICO", (10 > 5) && (15 < 8))
 console.log("TESTE LOGICO", (10 > 5) || (15 < 8))
 
 
+//TESTE LOGICO
+let idade = 25;
 
+if(idade >= 18){
+    console.log('maior de dade')
+}else{
+    console.log('menor de idade')
+}
+
+/**
+ * Renovação de CNH
+ * menor que 18 NÃo é permitido
+ * 18 ate 49 - 10 anos
+ * 50 ate 69 - 5 anos
+ * 70 acima 3 anos
+ */  
+
+if (idade < 18){
+    console.log(`com a idade de ${idade}, não é permitido possuir CNH`)
+
+}else if(idade < 50){
+    console.log(`com a idade de ${idade}, 10 anos para renovar`)
+
+}else if{
+    console.log(`com a idade de ${idade}, 5 anos para renovar`)
+}else{
+    console.log(`com a idade de ${idade}, 3 anos para renovar`)
+}
