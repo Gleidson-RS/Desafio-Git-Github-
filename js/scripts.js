@@ -123,5 +123,6 @@ const divResultado = document.querySelector('#div_dados')
 //CAPTURANDO O EVENTO SUBMIT DO FORMULARIO
 formDados.addEventListener('submit', (evt)=>{
     evt.preventDefault()
+    
 
 })
