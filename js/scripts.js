@@ -1,4 +1,4 @@
-console.log("Teste")
+/*console.log("Teste")
 
 let num = 50;
 var num2 = 130;
@@ -34,7 +34,7 @@ console.log(`Valor de num2 ${num2}`)
 console.log('A soma dos numeros', + 15 + 8) //correto
 console.log('A soma dos numeros', +(15 + 8)) //correto
 console.log('A soma dos numeros' + 15 + 8) //errado
-
+*/
 
 //operadores matematicos
 /*
@@ -45,13 +45,14 @@ console.log('A soma dos numeros' + 15 + 8) //errado
 / divisão
     % modulo(resto da divisão)
 */
+/*
 console.log('Soma das Variaveis', num + num2)
 console.log('subtração das variaveis', num3 - num)
 console.log('multiplição', num5 * 2)
 console.log('divisão de valores', num2 / 5)
 console.log('resto da divisão', num2 % 2)
 console.log(`resto da divisão ${num3 % 3}`)
-
+*/
 /* operadores racionais
 
   ==
@@ -70,7 +71,7 @@ console.log(`resto da divisão ${num3 % 3}`)
    || OU
  
 */
-
+/*
 console.log("TESTE DE RELACIONAIS", 10 == 5)
 console.log("TESTE DE RELACIONAIS", 10 != 5)
 console.log("TESTE DE RELACIONAIS", 10 > 5)
@@ -89,7 +90,7 @@ if(idade >= 18){
 }else{
     console.log('menor de idade')
 }
-
+*/
 /**
  * Renovação de CNH
  * menor que 18 NÃo é permitido
@@ -97,7 +98,7 @@ if(idade >= 18){
  * 50 ate 69 - 5 anos
  * 70 acima 3 anos
  */  
-
+/*
 if (idade < 18){
     console.log(`com a idade de ${idade}, não é permitido possuir CNH`)
 
@@ -109,3 +110,18 @@ if (idade < 18){
 }else{
     console.log(`com a idade de ${idade}, 3 anos para renovar`)
 }
+*/
+
+
+
+
+
+//PEGANDO ELEMENTOS DO DOM
+const formDados = document.querySelector('#formulario-pessoa')
+const divResultado = document.querySelector('#div_dados')
+
+//CAPTURANDO O EVENTO SUBMIT DO FORMULARIO
+formDados.addEventListener('submit', (evt)=>{
+    evt.preventDefault()
+
+})
