@@ -28,22 +28,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 console.log("       NOVA ATIVIDADE    ")
 
 console.log("---------------------------")
